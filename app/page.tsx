@@ -1,7 +1,11 @@
+"use client";
+
+import JogoDados from "@/components/JogoDados";
+
 export default function Home() {
   return (
-    <main>
-      <h1>Jogo de Dados</h1>
+    <main className="pagina">
+      <JogoDados />
     </main>
   );
 }
